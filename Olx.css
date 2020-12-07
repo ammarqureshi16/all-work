@@ -1,0 +1,67 @@
+.borderdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+
+.borderdivtwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.two{
+    text-decoration: none;
+}
+.imagtwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.olx{
+    text-align: center; 
+    font-size: 70px; 
+    color:  black;
+}
+
+.Cardmaindiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid none;
+    height: 300px;
+    background-color: grey;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 4px 9px blue;
+    transition: 0.3s;
+    width: 250px;
+}
+.card:hover{
+   box-shadow: 5px 5px 20px  black;
+} 
+.cardone{
+   padding: 20px;
+}
+
+.maindiv2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid none;
+    height: 300px;
+    background-color: gray;
+}
+
+.maindiv3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid none;
+    height: 180px;
+    background-color: rgb(218, 228, 231);
+}
+.card47{
+   padding: 15px;
+}
