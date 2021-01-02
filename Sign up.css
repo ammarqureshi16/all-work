@@ -1,0 +1,52 @@
+.maindiv{
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+.textdiv{
+    /* margin-left: 25rem; */
+    background-color: white;
+     border: solid none; 
+     width: 26rem; 
+     height: 28rem;
+     background-image: url(backgroung\ imag.jpg);
+     opacity: 70%;
+     margin-top: 5rem;
+}
+.headingdiv{
+    text-align: center;
+}
+.firstnameinput{
+    padding:7px; 
+    margin-top:20px; 
+    margin-left:10px;
+}
+.lastnameinput{
+    padding: 7px; 
+    margin-top:20px;
+    margin-left: 10px;
+}
+.emailinput{
+    padding: 7px;
+     margin-top: 20px;
+      margin-left: 10px;
+}
+.passwordinput{
+    padding: 7px;
+     margin-top: 20px;
+      margin-left: 10px;
+}
+.confirmpasswordinput{
+    padding: 7px; 
+    margin-top: 20px; 
+    margin-left: 10px;
+}
+.signupbutton{
+    background-color: rgb(9,197,34);
+    color: white;
+    width:300px; 
+    height:35px; 
+    margin-left:65px;
+}
