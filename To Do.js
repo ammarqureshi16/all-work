@@ -22,6 +22,7 @@ function addItem(){
   deleteButton.style.width="53px"
   deleteButton.style.height="30px"
   deleteButton.style.border="none"
+  deleteButton.style.borderRadius="6px"
 
   var editButon=document.createElement("button")
   editButon.innerHTML=" Edit "
@@ -31,6 +32,7 @@ function addItem(){
   editButon.style.width="53px"
   editButon.style.height="30px"
   editButon.style.border="none"
+  editButon.style.borderRadius="6px"
 
   editButon.setAttribute("onClick","editItem(event)")
   listItem.appendChild(editButon)
@@ -60,6 +62,7 @@ function editItem(event){
   button.style.width="70px"
   button.style.height="30px"
   button.style.border="none"
+  button.style.borderRadius="6px"
 }
 // UpdateItem
 function updateItem(event) {

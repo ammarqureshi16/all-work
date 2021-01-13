@@ -59,8 +59,8 @@ delete naam3.firstName
 delete naam3.age
 console.log(naam3)
 
-// var tr1=document.createElement("tr1")
-// table.appendChild(tr1)
-// var th=document.createElement("th4")
-// tr.appendChild(th)
-// th.innerHTML=naam.firstName
+var tr1=document.createElement("tr1")
+table.appendChild(tr1)
+var th=document.createElement("th4")
+tr.appendChild(th)
+th.innerHTML=naam.firstName

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> To Do </title>
+    <title> To Do App </title>
 </head>
 <body>
     <div style="display:  flex;
@@ -16,12 +16,13 @@
       id="main">
        <h1 style="text-align: center;margin-bottom: 320px;color: white;"> To Do </h1>
         <div id="inputDiv">
-          <input id="input">
+          <input type="text" required placeholder=" Enter The Name " id="input">
             <button style="background-color: darkblue;
             height: 30px;
             width: 70px;
             color: white;
-            border: none;" onclick="addItem()"> Add </button>
+            border: none;
+            border-radius: 6px;" onclick="addItem()"> Add </button>
 
             <ul id="ul"> </ul>
         </div>
