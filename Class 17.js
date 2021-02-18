@@ -1,59 +1,59 @@
-var mainonse=document.getElementById("main")
-var h1=document.createElement("h1")
-h1.innerHTML=(" Topics ")
-mainone.appendChild(h1)
+var mainonse = document.getElementById("main");
+var h1 = document.createElement("h1");
+h1.innerHTML = " Topics ";
+mainone.appendChild(h1);
 
-let topic=["Array","Push","Dom"]
-var listone=document.getElementById("listone")
+let topic = ["Array", "Push", "Dom"];
+var listone = document.getElementById("listone");
 
-for(var i=0; i<topic.length; i++){
-    var list=document.createElement("li")
-     list.innerHTML=topic[i]
-     listone.appendChild(list)
+for (var i = 0; i < topic.length; i++) {
+  var list = document.createElement("li");
+  list.innerHTML = topic[i];
+  listone.appendChild(list);
 }
-function submit(){
-    let arr= [];
-    var inp=document.getElementById("people").value;
-    arr.push(inp)
-    console.log(arr)
-    var order=document.getElementById("listone")
-    for(var i=0; i<arr.length; i++){
-        var list=document.createElement("li");
-        var br=document.createElement("br");
-        list.innerHTML=arr[i];
-        order.appendChild(list);
-        order.appendChild(br);
-    }
-document.getElementById("people").value= " "
+function submit() {
+  let arr = [];
+  var inp = document.getElementById("people").value;
+  arr.push(inp);
+  console.log(arr);
+  var order = document.getElementById("listone");
+  for (var i = 0; i < arr.length; i++) {
+    var list = document.createElement("li");
+    var br = document.createElement("br");
+    list.innerHTML = arr[i];
+    order.appendChild(list);
+    order.appendChild(br);
+  }
+  document.getElementById("people").value = " ";
 }
-var div=document.getElementById("main")
-var table=document.createElement("table")
-table.style.border="solid black"
-div.appendChild(table)
-var tr=document.createElement("tr")
-table.appendChild(tr)
-var th=document.createElement("th")
+var div = document.getElementById("main");
+var table = document.createElement("table");
+table.style.border = "solid black";
+div.appendChild(table);
+var tr = document.createElement("tr");
+table.appendChild(tr);
+var th = document.createElement("th");
 // th.style.border="solid black"
-tr.appendChild(th)
-th.innerHTML=" First Name "
-var th1=document.createElement("th1")
+tr.appendChild(th);
+th.innerHTML = " First Name ";
+var th1 = document.createElement("th1");
 // th1.style.border="solid green"
-tr.appendChild(th1)
+tr.appendChild(th1);
 // th1.style.border="solid black"
-th1.innerHTML=" Last Name "
-var th2=document.createElement("th2")
+th1.innerHTML = " Last Name ";
+var th2 = document.createElement("th2");
 // th2.style.border="solid black"
-tr.appendChild(th2)
-th2.innerHTML=" Age "
+tr.appendChild(th2);
+th2.innerHTML = " Age ";
 
-var tr1=document.createElement("tr1")
-table.appendChild(tr1)
-var th4=document.createElement("th4")
-tr1.appendChild(th4)
-th4.innerHTML=" AMMAR "
-var th5=document.createElement("th5")
-tr1.appendChild(th5)
-th5.innerHTML=" QURESHI "
+var tr1 = document.createElement("tr1");
+table.appendChild(tr1);
+var th4 = document.createElement("th4");
+tr1.appendChild(th4);
+th4.innerHTML = " AMMAR ";
+var th5 = document.createElement("th5");
+tr1.appendChild(th5);
+th5.innerHTML = " QURESHI ";
 
 // Bulb ON OFF***
 // function check(){
@@ -80,7 +80,7 @@ th5.innerHTML=" QURESHI "
 //      img.src =  'on bulb.webp'
 //         img.style.width="200px"
 //         img.style.height= "200px"
-//         onIMg.appendChild(img)    
+//         onIMg.appendChild(img)
 //      }
 // }
 
@@ -92,13 +92,13 @@ th5.innerHTML=" QURESHI "
 //      img.src =  'off bulb.png'
 //         img.style.width="200px"
 //         img.style.height= "200px"
-//         onIMg.appendChild(img)    
+//         onIMg.appendChild(img)
 //      }
 // }
 // function btnOn(){
 //     on = true
 //     off = false
-    
+
 //     console.log(on)
 //    hello()
 // }
@@ -106,7 +106,7 @@ th5.innerHTML=" QURESHI "
 //     off = true
 //     on = false
 //    hello()
-//  } 
+//  }
 // function hello(){
 //  const img=document.createElement("img")
 //  const img2=document.createElement("img")
@@ -115,5 +115,3 @@ th5.innerHTML=" QURESHI "
 //  on && onIMg.appendChild(img)
 //  off && onIMg.appendChild(img2)
 // }
-
-

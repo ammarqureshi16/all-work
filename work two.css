@@ -1,24 +1,24 @@
-.back{
-    background-image:url(gif\ 2.gif);
-     border: solid none;
-      width: 85rem;
-       position: fixed;
+.back {
+  background-image: url(gif\ 2.gif);
+  border: solid none;
+  width: 85rem;
+  position: fixed;
 }
-.headingmaindiv{
-    border: solid none;
-     margin-left: 5rem;
-      width: 30rem;
-      height: 50rem;
-      margin-top: 2rem;
+.headingmaindiv {
+  border: solid none;
+  margin-left: 5rem;
+  width: 30rem;
+  height: 50rem;
+  margin-top: 2rem;
 }
-.heading{
-    font-weight: 700;
-     margin-left: 3rem;
-      font-size: 4rem;
+.heading {
+  font-weight: 700;
+  margin-left: 3rem;
+  font-size: 4rem;
 }
-.text{
-    color: black;
-     font-weight: bold;
-      font-size: large;
-      text-decoration: none;
+.text {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
 }

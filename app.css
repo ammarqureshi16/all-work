@@ -1,79 +1,78 @@
-.Maindiv{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: solid none;
-    width: 84rem;
-    height: 5rem;
-    background-color: rgb(243, 152, 152);
-    position: fixed;
+.Maindiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid none;
+  width: 84rem;
+  height: 5rem;
+  background-color: rgb(243, 152, 152);
+  position: fixed;
 }
-.heading{
-    font-size: 2rem;
-    letter-spacing: 4px;
+.heading {
+  font-size: 2rem;
+  letter-spacing: 4px;
 }
-.one{
-    text-decoration: none;
-    color: white;
+.one {
+  text-decoration: none;
+  color: white;
 }
-.year{
-    text-align: center;
-    text-shadow: 1px 1px 1px blue;
-    letter-spacing: 1rem;
-    
+.year {
+  text-align: center;
+  text-shadow: 1px 1px 1px blue;
+  letter-spacing: 1rem;
 }
-.line{
-    border-top: 1px solid black; 
-        width: 13rem; 
-        margin-left: 35rem;
+.line {
+  border-top: 1px solid black;
+  width: 13rem;
+  margin-left: 35rem;
 }
-.headingtwo{
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing: 4px;
+.headingtwo {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 4px;
 }
-.maindiv2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: solid none;
-    height: 20rem;
+.maindiv2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid none;
+  height: 20rem;
 }
-.card{
-    background-color: white;
-    box-shadow: 0 4px 9px black;
-    width: 15rem;
+.card {
+  background-color: white;
+  box-shadow: 0 4px 9px black;
+  width: 15rem;
 }
-.card:hover{
-   box-shadow: 5px 5px 20px  black;
+.card:hover {
+  box-shadow: 5px 5px 20px black;
 }
-.cardone{
-   padding: 1rem;
+.cardone {
+  padding: 1rem;
 }
-.rs{
-    font-weight: bold;
-    text-decoration: none
+.rs {
+  font-weight: bold;
+  text-decoration: none;
 }
-.lastborder{
-    display: flex;
-    justify-content: space-around;
-    align-items:  center;
-    border: solid black;
-    height: 15rem;
-    width: 83rem;
-    background-color: wheat;
+.lastborder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid black;
+  height: 15rem;
+  width: 83rem;
+  background-color: wheat;
 }
-.lastheading{
-    font-weight: bold;
+.lastheading {
+  font-weight: bold;
 }
-.button1{
-    padding: 1rem 2rem;
-    background-color: gray;
-    color: white;
+.button1 {
+  padding: 1rem 2rem;
+  background-color: gray;
+  color: white;
 }
-.button2{
-    padding: 1rem 3rem;
-    background-color: white;
-    color: black;
+.button2 {
+  padding: 1rem 3rem;
+  background-color: white;
+  color: black;
 }

@@ -1,8 +1,8 @@
-.firstdiv{
-    background-image: url(gif\ one.gif);
-    border: solid none;
-      width: 85rem;
-       width: 80rem;
-       height: 64rem;
-       margin-left: 2rem;
+.firstdiv {
+  background-image: url(gif\ one.gif);
+  border: solid none;
+  width: 85rem;
+  width: 80rem;
+  height: 64rem;
+  margin-left: 2rem;
 }
