@@ -1,4 +1,3 @@
-
 var education=prompt("Enter the Qualification:")
 var serviceyear=+prompt("Enter the Service year:")
 var currentsalary=+prompt("Enter the current salary:")
