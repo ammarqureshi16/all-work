@@ -4,7 +4,6 @@
   align-items: center;
   background-color: gray;
 }
-
 .borderdivtwo {
   display: flex;
   justify-content: space-around;
@@ -23,7 +22,6 @@
   font-size: 70px;
   color: black;
 }
-
 .Cardmaindiv {
   display: flex;
   justify-content: space-around;
@@ -44,7 +42,6 @@
 .cardone {
   padding: 20px;
 }
-
 .maindiv2 {
   display: flex;
   justify-content: space-around;
@@ -62,6 +59,7 @@
   height: 180px;
   background-color: rgb(218, 228, 231);
 }
+
 .card47 {
   padding: 15px;
 }
